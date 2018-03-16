@@ -277,7 +277,7 @@ public User loadUser(Context context, int userId);
 public void loadUserAsync(Context context, int userId, UserCallback callback);
 ```
 
-### 2.2.13 Contantes de String, nomes, e valores
+### 2.2.13 Contantes
 
 Muitos elementos do SDK do Android, como `SharedPreferences`,` Bundle` ou `Intent`, usam uma abordagem de par chave-valor, portanto, é muito provável que, mesmo para um pequeno aplicativo, você acabe tendo que escrever muitas constantes de String.
 
