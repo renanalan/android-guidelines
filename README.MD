@@ -34,7 +34,7 @@ Imagine que você precisa implementar uma tela de login.
 
 1. Crie um novo pacote sob `ui` chamado` signin`.
 2. Crie uma nova activity chamada `ActivitySignIn`. Você também pode usar um Fragment.
-3. Defina a interface de visualização que sua atividade vai implementar. Crie uma nova interface chamada `SignInMvpView` que se herde de ` MvpView`. Adicione os métodos que você acha necessários. Exemplo: `showSignInSuccessful ()`
+3. Defina a interface de visualização que sua atividade vai implementar. Crie uma nova interface chamada `SignInMvpView` que herde de ` MvpView`. Adicione os métodos que você acha necessários. Exemplo: `showSignInSuccessful ()`
 4. Crie uma classe `SignInPresenter` que herde `BasePresenter <SignInMvpView>`
 5. Implemente os métodos no `SignInPresenter` que sua activity requer para executar as ações necessárias, e. `signIn (String email)`. Uma vez que sua requisição retorne sucesso, você deve chamar `getMvpView().showSignInSuccessful()`.
 6. Crie um `SignInPresenterTest` e escreva testes de unitários para` signIn(email)`. Lembre-se de efetuar o mock em `SignInMvpView` e também o` DataManager`.
