@@ -27,7 +27,7 @@ Bibliotecas e ferramentas:
 
 Este projeto segue as diretrizes de arquitetura do Android da Iteris baseadas em [MVP (Model View Presenter)](https://en.wikipedia.org/wiki/Model%E2%80%93view%E2%80%93presenter).
 
-https://github.com/renanalan/android-guidelines/blob/master/architecture_diagram_edit.png
+![](https://github.com/renanalan/android-guidelines/blob/master/architecture_diagram_edit.png)
 
 ### Como implementar uma nova tela MVP
 Imagine que você precisa implementar uma tela de login.
